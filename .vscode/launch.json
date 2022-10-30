@@ -9,8 +9,10 @@
             "type": "go",
             "request": "launch",
             "mode": "auto",
-            "program": "${fileDirname}",
-            "args": ["init"]
+            //"program": "${fileDirname}",
+            "program": "main.go",
+            "args": ["init", "/home/maks/tmp/repo03"],
+            //"cwd": "/tmp/repo"
         }
     ]
 }
